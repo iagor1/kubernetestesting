@@ -1,0 +1,8 @@
+apiVersion: v1
+kind : Pod
+metadata: 
+  name: porta-noticias
+spec:
+  containers:
+  - name: porta-noticias-cont
+    image: aluracursos/portal-noticias:1
